@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <h1>This is my new React App</h1>
       {/* <Page /> */}
+      {/* Exercise 2 is displayed as FunFact Element */}
       <FunFact />
     </div>
   );
