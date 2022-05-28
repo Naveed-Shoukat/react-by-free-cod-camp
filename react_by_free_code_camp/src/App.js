@@ -1,7 +1,12 @@
 import './App.css';
 // import Page from './components/Exercise1';
 // import FunFact from './components/Exercise2';
-import { MyElementOne, MyelementTwo } from './components/Exercise3';
+import {
+  MyElementOne,
+  MyelementTwo,
+  MyFooter,
+  MyHeader,
+} from './components/Exercise3';
 
 function App() {
   return (
@@ -12,8 +17,10 @@ function App() {
       {/* Exercise 2 is displayed as FunFact Element */}
       {/* <FunFact /> */}
       {/* Exercise 3 add two components instaed of only one*/}
+      <MyHeader />
       <MyElementOne />
       <MyelementTwo />
+      <MyFooter />
     </div>
   );
 }
