@@ -1,28 +1,15 @@
-import './App.css';
-// import Page from './components/Exercise1';
-// import FunFact from './components/Exercise2';
-import {
-  MyElementOne,
-  MyelementTwo,
-  MyFooter,
-  MyHeader,
-} from './components/Exercise3';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import MainContents from './components/MainContents';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>This is my new React App</h1>
-      {/* Exercise 1 is displayed as FunFact Element */}
-      {/* <Page /> */}
-      {/* Exercise 2 is displayed as FunFact Element */}
-      {/* <FunFact /> */}
-      {/* Exercise 3 add two components instaed of only one*/}
-      <MyHeader />
-      <MyElementOne />
-      <MyelementTwo />
-      <MyFooter />
+    <div>
+      <Header />
+      <div className="main-container">
+        <MainContents />
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;
